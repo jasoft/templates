@@ -1,14 +1,7 @@
 [project]
-dependencies = [
-  "numpy",
-  "pandas",
-  "rich",
-  "loguru",
-]
+name = "python-default"
+version = "0.1.0"
+dependencies = ["numpy", "pandas", "rich", "loguru"]
 
 [tool.uv]
-dev-dependencies = [
-  "pytest",
-  "ruff",
-  "black",
-]
+dev-dependencies = ["pytest", "ruff", "pyright"]
