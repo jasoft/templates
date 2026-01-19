@@ -1,0 +1,14 @@
+[project]
+dependencies = [
+  "numpy",
+  "pandas",
+  "rich",
+  "loguru",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "pytest",
+  "ruff",
+  "black",
+]
