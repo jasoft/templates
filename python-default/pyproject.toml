@@ -1,5 +1,6 @@
 [project]
 name = "python-default"
+requires-python = ">=3.11"
 version = "0.1.0"
 dependencies = ["numpy", "pandas", "rich", "loguru"]
 
