@@ -3,5 +3,5 @@ name = "python-default"
 version = "0.1.0"
 dependencies = ["numpy", "pandas", "rich", "loguru"]
 
-[tool.uv]
-dev-dependencies = ["pytest", "ruff", "pyright"]
+[dependency-groups]
+dev = ["pytest", "ruff", "pyright"]
